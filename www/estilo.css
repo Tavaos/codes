@@ -12,13 +12,18 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 #navegacao{
-    background-color: aquamarine;
+    background-color: #ddd;
     padding: 10px;
     text-align: center;
 }
-#navegacao{
+#navegacao a{
     text-decoration: none;
     padding: 5px;
-    border color: 1px solid #000;
-    
+    border : 1px solid #000;
+
+}
+#navegacao a:hover{
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
 }
