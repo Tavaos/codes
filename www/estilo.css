@@ -11,3 +11,14 @@ body{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
+#navegacao{
+    background-color: aquamarine;
+    padding: 10px;
+    text-align: center;
+}
+#navegacao{
+    text-decoration: none;
+    padding: 5px;
+    border color: 1px solid #000;
+    
+}
