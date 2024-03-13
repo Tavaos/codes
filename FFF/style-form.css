@@ -1,0 +1,40 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+section{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+}
+section h2{
+    text-align: center;
+            
+}
+.form-gurpo{
+    margin-bottom: 15px;
+}
+input[type= "text"],
+input[type= "email"],
+input[type= "password"]{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 95%;
+
+}
+label{
+    padding-bottom: 5px;
+    display: block;
+}
+button{
+    padding: 10px;
+    background-color: blueviolet;
+    color: ;
+}
