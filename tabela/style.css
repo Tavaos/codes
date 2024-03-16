@@ -1,0 +1,18 @@
+.container{
+    width: 960;
+    background-color: chartreuse;
+}
+@media (max-width: 768px){
+    .container{
+        width: 100%;
+        background-color: crimson;
+    }
+}
+
+@media (max-width: 400px){
+    .container{
+        width: 100%;
+        background-color: rgb(red, green, blue)
+
+    }
+}
