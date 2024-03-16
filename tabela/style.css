@@ -1,19 +1,18 @@
 .container{
     width: 960;
-    background-color: chartreuse;
+    
 }
 @media (max-width: 768px){
     .container{
         width: 100%;
-        background-color: crimson;
+        
     }
 }
 
 @media (max-width: 400px){
     .container{
         width: 100%;
-        background-color: rgb(red, green, blue)
-
+        
     }
 }
 table{
@@ -23,4 +22,23 @@ table{
 th, td{
     border: 1px solid black;
     padding: 20px;
+}
+tbody tr:nth-child(even){
+    background-color: cadetblue;
+}
+thead th{
+    background-color: blue;
+    color: white;
+}
+
+tbody input{
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+tbody button{
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
 }
