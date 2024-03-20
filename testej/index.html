@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+    <style>
+        #lampada{
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Acendendo a Lâmpada</h1>
+
+    <p>Quantos cliques 
+        são necessários para acender a lâmpada?</p>
+
+    <button onclick="ligada()">Ligar</button>
+
+    <img id="lampada" src="desligada.webp"
+    onmouseover="ligada()"
+    onmouseleave="desligada()">
+
+    <button onclick="desligada()">Desligar</button>
+    <script src="script.js"></script>
+</body>
+</html>
