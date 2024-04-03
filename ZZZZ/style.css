@@ -1,0 +1,15 @@
+body{
+  display: flex;
+  justify-content: center;   
+}
+.calculadora{
+    width: 200px;
+}
+.teclas{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+input{
+    
+    width: 100%;
+}

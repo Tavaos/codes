@@ -1,15 +1,18 @@
-function somar(){
-    let a = document.getElementById('inputA');
-    let b = document.getElementById('inputB');
-
-
-    return parseFloat(a.value)+ parseFloat(b.value);
+function limpar(){
+    document.getElementById('display').value = "";
 }
 
-function calcQuadrado(valor){
-    document.getElementById('saida').innerHTML = valor*valor;
+function coleta(botao){
+    document.getElementById('display').value += botao;
 }
 
-function exec(){
-    calcQuadrado(somar());
+function resultado(){
+    let display = document.getElementById('display').value;
+    try {
+        let resultado = eval(display);
+        // eval é funcao que calcula uma expressao
+        document.getElementById('display').value = resultado;
+    } catch (error) {
+        let display = document.getElementById('display').value = "Não pode :(";
+    }
 }

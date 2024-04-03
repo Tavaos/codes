@@ -4,12 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <input type="number" id="inputA">
-    <input type="number" id="inputB">
-    <button onclick="somar()">Clique aqui</button>
-    <h1 id="saida"></h1>
-    <script src="script.js"></script>
+   <div class="calculadora">
+    <input type="text" id="display">
+    <div class="teclas">
+     
+        <button onclick="coleta('7')">7</button>
+        <button onclick="coleta('8')">8</button>
+        <button onclick="coleta('9')">9</button>
+        <button onclick="coleta('+')">+</button>
+
+        <button onclick="coleta('4')">4</button>
+        <button onclick="coleta('5')">5</button>
+        <button onclick="coleta('6')">6</button>
+        <button onclick="coleta('-')">-</button>
+
+        <button onclick="coleta('1')">1</button>
+        <button onclick="coleta('2')">2</button>
+        <button onclick="coleta('3')">3</button>
+        <button onclick="coleta('/')">/</button>
+
+        <button onclick="coleta('0')">0</button>
+        <button onclick="coleta('*')">*</button>
+        <button onclick="resultado()">=</button>
+        <button onclick="Limpar()">c</button>
+</div>
+</div>
+<script src="script.js"></script>
+   
 </body>
 </html>
