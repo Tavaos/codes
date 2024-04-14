@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+}
+
+.container-fila {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.itens-fila {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.itens-fila li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}

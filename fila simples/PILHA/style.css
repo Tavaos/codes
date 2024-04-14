@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+}
+
+.container-pilha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.pilha-itens {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 200px; /* Ajuste a altura da pilha conforme necessário */
+    overflow-y: scroll; /* Adiciona rolagem vertical se a pilha exceder a altura */
+}
+
+.pilha-itens li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
