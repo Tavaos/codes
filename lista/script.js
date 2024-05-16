@@ -14,7 +14,7 @@ function create(){
     listaDecompras.push(obj);
     console.log(listaDecompras);
     limpar();
-    
+    read();
 }
 
 function read(){
