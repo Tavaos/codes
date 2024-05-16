@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="item" placeholder="Item">
+        <input type="number" id="valor" placeholder="Valor">
+
+        <button onclick="salvar()">Salvar</button>
+        <button onclick="limpar()">Limpar</button>
+
+        <table>
+            <thead>
+                <th>Item</th>
+                <th>Valor</th>
+                <th>Ações</th>
+            </thead>
+            <tbody id="listagem">
+
+            </tbody>
+        </table>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
