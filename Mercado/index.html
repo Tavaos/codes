@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OnMarket</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="scripts.js"></script>
+</head>
+<body>
+  <header>
+    <h1>OnMarket</h1>
+
+    <form action="/busca" method="get">
+      <input type="search" id="search-bar" name="termo" placeholder="Pesquisar">
+      <button type="submit">Buscar</button>
+    </form>
+
+    <div id="carrinho-container">
+      <h2>Carrinho</h2>
+      <ul id="itens-carrinho"></ul>
+      <p>Total: R$<span id="total-carrinho">0</span></p>
+      <button id="botao-finalizar" onclick="finalizarCompra()">Finalizar Compra</button>
+    </div>
+  </header>
+
+  <main>
+    <div id="catalogo" class="catalogo-horizontal"></div>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 OnMarket</p>
+  </footer>
+</body>
+</html>

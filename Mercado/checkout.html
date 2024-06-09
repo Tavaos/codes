@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finalizar Compra - OnMarket</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Finalizar Compra</h1>
+    </header>
+    <main>
+        <form id="form-checkout">
+            <h2>Confirme seu Endereço</h2>
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco" required>
+            
+            <label for="cep">CEP:</label>
+            <input type="text" id="cep" name="cep" required>
+
+            <h2>Informações de Contato</h2>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <h2>Escolha o Método de Pagamento</h2>
+            <label for="metodo-pagamento">Método de Pagamento:</label>
+            <select id="metodo-pagamento" name="metodo-pagamento" required>
+                <option value="cartao-credito">Cartão de Crédito</option>
+                <option value="boleto">Boleto</option>
+                <option value="pix">PIX</option>
+            </select>
+
+            <button type="submit">Confirmar Compra</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 OnMarket</p>
+    </footer>
+    <script src="checkout.js"></script>
+</body>
+</html>
